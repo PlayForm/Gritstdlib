@@ -7,7 +7,7 @@ Detected use of the `'none'` algorithm in a JWT token. The `'none'` algorithm as
 
 ## references
 
-- [Cryptographic Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures)
+- [`Cryptographic Failures`](https://owasp.org/Top10/A02_2021-Cryptographic_Failures)
 
 ```grit
 engine marzano(0.1)

@@ -4,7 +4,7 @@ tags: [openai, instructor, structured, outputs]
 
 # Switch from Instructor to OpenAI Structured Outputs
 
-OpenAI recently released [structured outputs](https://openai.com/index/introducing-structured-outputs-in-the-api/), which removes some of the complexity of using [Instructor](https://github.com/jxnl/instructor) or other structured output libraries.
+OpenAI recently released [`structured outputs](https://openai.com/index/introducing-structured-outputs-in-the-api/), which removes some of the complexity of using [Instructor`](https://github.com/jxnl/instructor) or other structured output libraries.
 
 This pattern will transform your existing code to use the new structured outputs API.
 

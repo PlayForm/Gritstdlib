@@ -1,4 +1,4 @@
-Test for ensuring new imports go to the right place, from [this issue](https://github.com/getgrit/gritql/issues/449).
+Test for ensuring new imports go to the right place, from [`this issue`](https://github.com/getgrit/gritql/issues/449).
 
 ```grit
 engine marzano(0.1)

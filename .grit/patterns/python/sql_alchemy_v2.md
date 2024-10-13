@@ -192,7 +192,7 @@ file($body) where $body <: any {
 
 ## Upgrades to SQL Alchemy v2
 
-Use the [query API](https://docs.sqlalchemy.org/en/20/changelog/migration_14.html#orm-query-is-internally-unified-with-select-update-delete-2-0-style-execution-available)
+Use the [`query API`](https://docs.sqlalchemy.org/en/20/changelog/migration_14.html#orm-query-is-internally-unified-with-select-update-delete-2-0-style-execution-available)
 
 ```python
 session.query(User).filter(User.name == "sandy").update({ password: "foobar", other: "thing" }, synchronize_session="fetch")

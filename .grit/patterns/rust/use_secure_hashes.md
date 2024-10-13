@@ -7,11 +7,11 @@ The hashing functions `md2`, `md4`, `md5`, and `sha1` are detected as cryptograp
 
 references:
 
-- [RustCrypto](https://github.com/RustCrypto/hashes)
-- [md2](https://docs.rs/md2/latest/md2/)
-- [md4](https://docs.rs/md4/latest/md4/)
-- [md5](https://docs.rs/md5/latest/md5/)
-- [sha1](https://docs.rs/sha-1/latest/sha1/)
+- [`RustCrypto`](https://github.com/RustCrypto/hashes)
+- [`md2`](https://docs.rs/md2/latest/md2/)
+- [`md4`](https://docs.rs/md4/latest/md4/)
+- [`md5`](https://docs.rs/md5/latest/md5/)
+- [`sha1`](https://docs.rs/sha-1/latest/sha1/)
 
 ```grit
 language rust

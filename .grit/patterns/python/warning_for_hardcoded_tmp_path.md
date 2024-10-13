@@ -5,7 +5,7 @@ tags: [warning, good-practice]
 
 Detected hardcoded temp directory. Consider using `tempfile.TemporaryFile` instead
 
-- [reference](https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile)
+- [`reference`](https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryFile)
 
 
 ```grit

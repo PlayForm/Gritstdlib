@@ -7,9 +7,9 @@ If you're generating a CSV file using the built-in `csv` module and incorporatin
 
 ### references
 
-- [defusedcsv](https://github.com/raphaelm/defusedcsv)
-- [CSV_Injection](https://owasp.org/www-community/attacks/CSV_Injection)
-- [comma-separated-vulnerabilities](https://web.archive.org/web/20220516052229/https://www.contextis.com/us/blog/comma-separated-vulnerabilities)
+- [`defusedcsv`](https://github.com/raphaelm/defusedcsv)
+- [`CSV_Injection`](https://owasp.org/www-community/attacks/CSV_Injection)
+- [`comma-separated-vulnerabilities`](https://web.archive.org/web/20220516052229/https://www.contextis.com/us/blog/comma-separated-vulnerabilities)
 
 ```grit
 engine marzano(0.1)

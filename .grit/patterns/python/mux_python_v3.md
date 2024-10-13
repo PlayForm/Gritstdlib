@@ -8,7 +8,7 @@ annotations:
 
 The Mux Python SDK has been rewritten for v3 and contains significant changes.
 
-An automated migration is available using the [Grit CLI](https://docs.grit.io/cli/quickstart):
+An automated migration is available using the [`Grit CLI`](https://docs.grit.io/cli/quickstart):
 
 ```
 grit apply mux_python_v3

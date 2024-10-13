@@ -14,7 +14,7 @@ To propose changes, fork this repository and open a pull request.
 
 All patterns require at least one sample validating the functionality. As a result, the best way to develop a
 GritQL pattern is often by starting with before and after sample(s) of the code to be transformed. You can
-iterate in the [GritQL studio](https://app.grit.io/studio) to develop your pattern.
+iterate in the [`GritQL studio`](https://app.grit.io/studio) to develop your pattern.
 
 Once you have a pattern, you can add it to the repository by creating a new `.md` file in the `.grit/patterns`
 directory. The file name must be the snake-cased name of the pattern. Kebab case/dashes in `.md` files are not allowed by the GritQL parser. Keep the file name short and
@@ -33,7 +33,7 @@ Once you have your sample(s) passing locally, creating a PR will automatically t
 
 ## GritQL conventions
 
-When writing GritQL patterns, follow the conventions in the [GritQL conventions](./grit/patterns/gritql_conventions) directory.
+When writing GritQL patterns, follow the conventions in the [`GritQL conventions`](./grit/patterns/gritql_conventions) directory.
 
 You can confirm you're following the conventions by running the following command:
 

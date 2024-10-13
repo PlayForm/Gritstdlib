@@ -2,7 +2,7 @@
 title: Join nested with statements
 ---
 
-Join nested with statements into a single one. Rule [SIM117](https://github.com/MartinThoma/flake8-simplify/issues/35) from [flake8-simplify](https://github.com/MartinThoma/flake8-simplify).
+Join nested with statements into a single one. Rule [`SIM117](https://github.com/MartinThoma/flake8-simplify/issues/35) from [flake8-simplify`](https://github.com/MartinThoma/flake8-simplify).
 
 Limitations:
 

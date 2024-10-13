@@ -5,7 +5,7 @@ tags: [react, migration, styled-component]
 
 Creating a styled component inside the render method in React leads to performance issues because it dynamically generates a new component in the DOM on each render. This causes React to discard and recalculate that part of the DOM subtree every time, rather than efficiently updating only the changed parts. This can result in performance bottlenecks and unpredictable behaviour.
 
-- [reference](https://styled-components.com/docs/faqs#why-should-i-avoid-declaring-styled-components-in-the-render-method)
+- [`reference`](https://styled-components.com/docs/faqs#why-should-i-avoid-declaring-styled-components-in-the-render-method)
 
 
 ```grit

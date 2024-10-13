@@ -5,7 +5,7 @@ tags: [fix, good-practice]
 
 We should close the file object opened without corresponding close.
 
-- [reference](https://realpython.com/why-close-file-python/)
+- [`reference`](https://realpython.com/why-close-file-python/)
 
 
 ```grit

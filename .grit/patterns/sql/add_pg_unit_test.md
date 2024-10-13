@@ -2,7 +2,7 @@
 title: Add PgTAP unit test for procedure
 ---
 
-[PgTAP](https://pgtap.org/) is a unit testing framework for Postgres. This pattern adds a unit test checking a procedure has been correctly defined.
+[`PgTAP`](https://pgtap.org/) is a unit testing framework for Postgres. This pattern adds a unit test checking a procedure has been correctly defined.
 
 ```grit
 engine marzano(0.1)

@@ -2,7 +2,7 @@
 title: Use dict.get with default instead of if-else
 ---
 
-Join multiple with statements into a single one. Rule [SIM401](https://github.com/MartinThoma/flake8-simplify/issues/72) from [flake8-simplify](https://github.com/MartinThoma/flake8-simplify).
+Join multiple with statements into a single one. Rule [`SIM401](https://github.com/MartinThoma/flake8-simplify/issues/72) from [flake8-simplify`](https://github.com/MartinThoma/flake8-simplify).
 
 Caveat: the transformation is not run if either `$key` or `$default` have a function call,
 as they would be called a different number of times in the new code.

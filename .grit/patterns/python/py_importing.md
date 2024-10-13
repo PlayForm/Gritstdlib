@@ -71,7 +71,7 @@ completion(model="gpt-3")
 
 ## `add_import($source, $name)` predicate
 
-The `add_import($source, $name)` predicate can be used inside a [where clause](https://docs.grit.io/language/conditions#where-clause) to add an import statement to the top of the file. If `$name` isn't already imported from `$source`, the import statement will be added.
+The `add_import($source, $name)` predicate can be used inside a [`where clause`](https://docs.grit.io/language/conditions#where-clause) to add an import statement to the top of the file. If `$name` isn't already imported from `$source`, the import statement will be added.
 
 Note this is idempotent, so it will not add the import if it is already present and you can safely call it multiple times.
 
@@ -135,7 +135,7 @@ openai.completion(model="gpt-3")
 
 ## `remove_import($source)` predicate
 
-The `remove_import($source)` predicate can be used inside a [where clause](https://docs.grit.io/language/conditions#where-clause) to remove an import statement, if it is present.
+The `remove_import($source)` predicate can be used inside a [`where clause`](https://docs.grit.io/language/conditions#where-clause) to remove an import statement, if it is present.
 
 For example, you can use the following pattern to remove all imports from the `pydantic` module:
 

@@ -4,7 +4,7 @@ tags: [react, migration, complex, alpha, hidden, mui]
 
 # Upgrade MUI v4 to MUI v5
 
-This migration handles some of the cases not covered in the [official codemod](https://mui.com/material-ui/migration/migration-v4/):
+This migration handles some of the cases not covered in the [`official codemod`](https://mui.com/material-ui/migration/migration-v4/):
 
 - Renames `theme.palette.type` to `theme.palette.mode`
 

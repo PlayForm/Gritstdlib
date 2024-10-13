@@ -5,7 +5,7 @@ tags: [fix SD]
 
 Convert non-strict equality checking, using `==`, to the strict version, using `===`.
 
-Details on [StackOverflow](https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons).
+Details on [`StackOverflow`](https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons).
 
 ```grit
 engine marzano(0.1)

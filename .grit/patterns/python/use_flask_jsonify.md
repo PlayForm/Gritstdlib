@@ -7,7 +7,7 @@ tags: [fix, best-pactice, flask]
 
 ### references
 
-- [flask.json.jsonify](https://flask.palletsprojects.com/en/2.2.x/api/#flask.json.jsonify)
+- [`flask.json.jsonify`](https://flask.palletsprojects.com/en/2.2.x/api/#flask.json.jsonify)
 
 ```grit
 engine marzano(0.1)

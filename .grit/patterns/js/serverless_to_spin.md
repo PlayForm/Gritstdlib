@@ -3,7 +3,7 @@ title: Convert AWS Lambda Functions to Fermyon Spin
 tags: [js, serverless, fermyon, alpha, hidden]
 ---
 
-This pattern converts a serverless function to a spin function designed to run on [Fermyon](https://www.fermyon.com/).
+This pattern converts a serverless function to a spin function designed to run on [`Fermyon`](https://www.fermyon.com/).
 
 Note: the full migration is packaged as a workflow. This is just a subcomponent.
 
@@ -175,7 +175,7 @@ export async function handleRequest(request: HttpRequest): Promise<HttpResponse>
 
 ## Converts a handler with inputs
 
-This example is based on [serverless example](https://github.com/custodian-sample-org/serverless-examples/blob/v3/aws-node-alexa-skill/handler.js).
+This example is based on [`serverless example`](https://github.com/custodian-sample-org/serverless-examples/blob/v3/aws-node-alexa-skill/handler.js).
 
 ```js
 'use strict';

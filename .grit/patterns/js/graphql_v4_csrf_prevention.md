@@ -5,7 +5,7 @@ tags: [fix, graphQL, security]
 
 The Apollo GraphQL server sets the 'csrfPrevention' option to false. This can enable CSRF attacks.
 
-- [reference](https://www.apollographql.com/docs/apollo-server/v3/security/cors/#preventing-cross-site-request-forgery-csrf)
+- [`reference`](https://www.apollographql.com/docs/apollo-server/v3/security/cors/#preventing-cross-site-request-forgery-csrf)
 
 
 ```grit

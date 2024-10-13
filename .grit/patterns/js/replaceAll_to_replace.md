@@ -7,7 +7,7 @@ Replaces `replaceAll` with `replace`, when it uses a regex pattern.
 
 The `replaceAll` string method may not be supported in all JavaScript versions and older browsers. It is advisable to use the `replace()` method with a regular expression as the first argument. For example, use `mystring.replace(/bad/g, "good") `instead of `mystring.replaceAll("bad", "good")`
 
-- [reference](https://discourse.threejs.org/t/replaceall-is-not-a-function/14585)
+- [`reference`](https://discourse.threejs.org/t/replaceall-is-not-a-function/14585)
 
 
 ```grit

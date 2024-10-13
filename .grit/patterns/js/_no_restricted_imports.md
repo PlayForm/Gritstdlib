@@ -1,6 +1,6 @@
 # No Restricted Imports
 
-This pattern provides the equivalent of the `no-restricted-imports` [rule in ESLint](https://eslint.org/docs/latest/rules/no-restricted-imports).
+This pattern provides the equivalent of the `no-restricted-imports` [`rule in ESLint`](https://eslint.org/docs/latest/rules/no-restricted-imports).
 
 You _must_ provide a pattern that will match the imports you want to restrict.
 

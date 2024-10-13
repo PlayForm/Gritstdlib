@@ -157,7 +157,7 @@ function doStuff() {
 const Sentry = require('@sentry/node');
 ```
 
-This appears to be correct based on [open source examples](https://github.com/search?type=code&q=import%28%22%40sentry%2Fnode).
+This appears to be correct based on [`open source examples`](https://github.com/search?type=code&q=import%28%22%40sentry%2Fnode).
 
 ```ts
 import * as Sentry from '@sentry/node';

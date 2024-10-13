@@ -62,7 +62,7 @@ These are cases we don't yet handle properly:
 
 ## Legal Dot
 
-This is a [simple sample](https://github.com/wireapp/wire-webapp/pull/10329/files) taken from Wire.
+This is a [`simple sample`](https://github.com/wireapp/wire-webapp/pull/10329/files) taken from Wire.
 
 ```javascript
 ko.components.register('legal-hold-dot', {

@@ -5,7 +5,7 @@ tags: [SD]
 
 Convert any equality check with `-0` to the more precise `Object.is`.
 
-Details on [on StackOverflow](https://stackoverflow.com/questions/7223359/are-0-and-0-the-same).
+Details on [`on StackOverflow`](https://stackoverflow.com/questions/7223359/are-0-and-0-the-same).
 
 
 ```grit

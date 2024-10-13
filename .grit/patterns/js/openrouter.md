@@ -3,7 +3,7 @@ title: Adopt OpenRouter
 tags: [migration, openai, openrouter, sdk]
 ---
 
-Switch the OpenAI JS/TS SDK to use [OpenRouter](https://openrouter.ai/docs#format).
+Switch the OpenAI JS/TS SDK to use [`OpenRouter`](https://openrouter.ai/docs#format).
 
 
 ```grit
