@@ -40,7 +40,7 @@ response = openai.ChatCompletion.create(
     ]
 )
 
-print(response['choices'][0]['message']['content'])
+print(response['choices'][0][`'message'`]['content'])
 ```
 
 ```python
@@ -81,7 +81,7 @@ response = openai.Embedding.create(
     input="Your text string goes here",
     engine="YOUR_DEPLOYMENT_NAME"
 )
-embeddings = response['data'][0]['embedding']
+embeddings = response['data'][`0`]['embedding']
 print(embeddings)
 ```
 

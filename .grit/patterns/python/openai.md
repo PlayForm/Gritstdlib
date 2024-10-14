@@ -610,10 +610,10 @@ completion = openai.ChatCompletion.create(
          user + text},
     ]
 )
-output = completion['choices'][0]['message']['content']
+output = completion['choices'][0][`'message'`]['content']
 
-prom = completion['usage']['prompt_tokens']
-comp = completion['usage']['completion_tokens']
+prom = completion[`'usage'`]['prompt_tokens']
+comp = completion[`'usage'`]['completion_tokens']
 
 # unrelated variable
 foo = something['else']
@@ -709,3 +709,4 @@ except openai.AuthenticationError as e:
 except openai.InvalidRequestError as e:
     print(e)
 ```
+
