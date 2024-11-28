@@ -18,7 +18,7 @@ language js
 
 ## PhoneCat - Component
 
-From [`Angular PhoneCat](https://github.com/angular/angular-phonecat), following [this tutorial`](https://angular.io/guide/upgrade#upgrading-components).
+From [`Angular PhoneCat](HTTPS://github.com/angular/angular-phonecat), following [this tutorial`](HTTPS://angular.io/guide/upgrade#upgrading-components).
 
 ```js
 'use strict';

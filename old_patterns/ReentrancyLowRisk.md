@@ -4,7 +4,7 @@ title: Reentrancy, not last line
 
 Member assignemnt just before the transfer, but transfer not on the last line
 
-See case 3 here: https://github.com/runtimeverification/amp/issues/39#issuecomment-1137314683
+See case 3 here: HTTPS://github.com/runtimeverification/amp/issues/39#issuecomment-1137314683
 
 tags: #reentrancy, #vulnerability, #lowrisk
 

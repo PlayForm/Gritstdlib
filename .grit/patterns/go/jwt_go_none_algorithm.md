@@ -7,7 +7,7 @@ Using the `none` algorithm in a `JWT` token is risky because it assumes the toke
 
 ### references
 
-- [Cryptographic_Failures](https://owasp.org/Top10/A02_2021-Cryptographic_Failures)
+- [Cryptographic_Failures](HTTPS://owasp.org/Top10/A02_2021-Cryptographic_Failures)
 
 
 ```grit

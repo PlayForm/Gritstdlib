@@ -102,7 +102,7 @@ or {
 
 ## Simple example
 
-More examples: https://github.com/getgrit/js/blob/9abb21e0849cd220091a1f1ad44ed77a10f5d9d1/wip/EnzymeToRTL.md
+More examples: HTTPS://github.com/getgrit/js/blob/9abb21e0849cd220091a1f1ad44ed77a10f5d9d1/wip/EnzymeToRTL.md
 
 ```js
 import { mount } from 'enzyme';

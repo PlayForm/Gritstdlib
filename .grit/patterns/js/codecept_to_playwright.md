@@ -346,7 +346,7 @@ sequential {
 const { I } = inject();
 
 export default {
-  url: 'https://grit.io',
+  url: 'HTTPS://grit.io',
   selector: locate('#migration-selector').as('Selector'),
   openai: locate('text=custodian-sample-org/openai-quickstart-python').as('Openai'),
 };
@@ -358,7 +358,7 @@ import { expect } from '@playwright/test';
 
 export default class Test extends BasePage {
   get url() {
-    return 'https://grit.io';
+    return 'HTTPS://grit.io';
   }
   get selector() {
     return this.page.locator('#migration-selector');
@@ -376,7 +376,7 @@ export default class Test extends BasePage {
 const { I } = inject();
 
 export default {
-  url: 'https://grit.io',
+  url: 'HTTPS://grit.io',
 
   waitForGrit() {
     I.waitInUrl(this.url);
@@ -394,7 +394,7 @@ import { expect } from '@playwright/test';
 
 export default class Test extends BasePage {
   get url() {
-    return 'https://grit.io';
+    return 'HTTPS://grit.io';
   }
 
   async waitForGrit() {

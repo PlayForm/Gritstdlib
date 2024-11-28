@@ -7,7 +7,7 @@ Identified a potential risk in converting the outcome of a `strconv.Atoi` comman
 
 ### references
 
-- [strconv](https://pkg.go.dev/strconv)
+- [strconv](HTTPS://pkg.go.dev/strconv)
 
 
 ```grit

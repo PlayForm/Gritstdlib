@@ -62,7 +62,7 @@ These are cases we don't yet handle properly:
 
 ## Legal Dot
 
-This is a [`simple sample`](https://github.com/wireapp/wire-webapp/pull/10329/files) taken from Wire.
+This is a [`simple sample`](HTTPS://github.com/wireapp/wire-webapp/pull/10329/files) taken from Wire.
 
 ```javascript
 ko.components.register('legal-hold-dot', {
@@ -104,7 +104,7 @@ ko.components.register('legal-hold-dot', {
 
 # Prior Art
 
-- https://github.com/wireapp/wire-webapp/wiki/Knockout-to-React-Migration
-  - https://github.com/wireapp/wire-webapp/pull/10329/files
-  - https://github.com/wireapp/wire-webapp/pull/10387/files
-- https://github.com/lelandrichardson/knockout-react
+- HTTPS://github.com/wireapp/wire-webapp/wiki/Knockout-to-React-Migration
+  - HTTPS://github.com/wireapp/wire-webapp/pull/10329/files
+  - HTTPS://github.com/wireapp/wire-webapp/pull/10387/files
+- HTTPS://github.com/lelandrichardson/knockout-react

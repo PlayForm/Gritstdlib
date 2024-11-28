@@ -7,7 +7,7 @@ Use `$FORM.cleaned_data[]` instead of `request.POST[]` after `form.is_valid()` h
 
 ### references
 
-- https://docs.djangoproject.com/en/4.2/ref/forms/api/#accessing-clean-data
+- HTTPS://docs.djangoproject.com/en/4.2/ref/forms/api/#accessing-clean-data
 
 ```grit
 engine marzano(0.1)

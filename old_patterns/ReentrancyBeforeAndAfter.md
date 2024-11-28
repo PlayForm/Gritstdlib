@@ -4,7 +4,7 @@ title: Reentrancy, assignments both before and after
 
 A transfer with member assignments both before and after the transfer.
 
-See case 2 here: https://github.com/runtimeverification/amp/issues/39#issuecomment-1137314683
+See case 2 here: HTTPS://github.com/runtimeverification/amp/issues/39#issuecomment-1137314683
 
 tags: #reentrancy, #vulnerability
 

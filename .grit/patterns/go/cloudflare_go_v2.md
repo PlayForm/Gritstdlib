@@ -11,7 +11,7 @@ Future migrations will be more seamless as we will be automatically generating t
 {% /note %}
 
 
-This migration can be applied automatically using the [Grit CLI](https://docs.grit.io/cli/quickstart):
+This migration can be applied automatically using the [Grit CLI](HTTPS://docs.grit.io/cli/quickstart):
 
 ```
 grit apply cloudflare_go_v2

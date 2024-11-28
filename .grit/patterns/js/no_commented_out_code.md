@@ -4,7 +4,7 @@ tags: [hidden, linting, best-practice, recommended, ai, flaky]
 
 # No Commented Out Code
 
-Please [`don't commit commented out code`](https://kentcdodds.com/blog/please-dont-commit-commented-out-code).
+Please [`don't commit commented out code`](HTTPS://kentcdodds.com/blog/please-dont-commit-commented-out-code).
 
 ```grit
 engine marzano(0.1)
@@ -119,7 +119,7 @@ if (name === 'grpc.google.logging.v2.LoggingServiceV2/WriteLogEntries') return R
 
 ## Handles block comments too
 
-Block comments don't currently parse correctly, see https://github.com/getgrit/rewriter/issues/7731.
+Block comments don't currently parse correctly, see HTTPS://github.com/getgrit/rewriter/issues/7731.
 
 ```js
 /** See sdk_proxy for how stdlib calls are intercepted and the workflow ID is injected. */

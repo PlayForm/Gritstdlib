@@ -7,8 +7,8 @@ Utilize `filepath.Join(...)` instead of `path.Join(...)` as it accommodates OS-s
 
 ### references
 
-- [path.join-considered-harmful](https://parsiya.net/blog/2019-03-09-path.join-considered-harmful/)
-- [path.go](https://go.dev/src/path/path.go?s=4034:4066#L145)
+- [path.join-considered-harmful](HTTPS://parsiya.net/blog/2019-03-09-path.join-considered-harmful/)
+- [path.go](HTTPS://go.dev/src/path/path.go?s=4034:4066#L145)
 
 
 ```grit

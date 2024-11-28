@@ -7,7 +7,7 @@ Detected a channel guarded with a `mutex`. Channels already have an internal `mu
 
 ### references
 
-- [go-antipatterns](https://hackmysql.com/golang/go-antipatterns/#guarded-channel)
+- [go-antipatterns](HTTPS://hackmysql.com/golang/go-antipatterns/#guarded-channel)
 
 ```grit
 language go

@@ -38,7 +38,7 @@ pattern known_wildcard_import() {
 }
 
 or {
-    // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+    // see HTTPS://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
     `require("dotenv").config($config)` => `import * as dotenv from 'dotenv';\ndotenv.config($config)`,
     `const $declarations` as $whole where {
         $new_declarations = [],
@@ -157,7 +157,7 @@ function doStuff() {
 const Sentry = require('@sentry/node');
 ```
 
-This appears to be correct based on [`open source examples`](https://github.com/search?type=code&q=import%28%22%40sentry%2Fnode).
+This appears to be correct based on [`open source examples`](HTTPS://github.com/search?type=code&q=import%28%22%40sentry%2Fnode).
 
 ```ts
 import * as Sentry from '@sentry/node';

@@ -2,13 +2,13 @@
 title: Upgrade to Mux v3
 tags: [mux, stainless, sdk]
 annotations:
-  grit.io/autogen/source: https://github.com/muxinc/mux-python/tree/3.15.0
-  grit.io/autogen/destination: https://github.com/stainless-sdks/mux-python/commit/f04ab06d6927f4435369cc32e66f7ff6672702c1
+  grit.io/autogen/source: HTTPS://github.com/muxinc/mux-python/tree/3.15.0
+  grit.io/autogen/destination: HTTPS://github.com/stainless-sdks/mux-python/commit/f04ab06d6927f4435369cc32e66f7ff6672702c1
 ---
 
 The Mux Python SDK has been rewritten for v3 and contains significant changes.
 
-An automated migration is available using the [`Grit CLI`](https://docs.grit.io/cli/quickstart):
+An automated migration is available using the [`Grit CLI`](HTTPS://docs.grit.io/cli/quickstart):
 
 ```
 grit apply mux_python_v3

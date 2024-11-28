@@ -3,9 +3,9 @@ title: Upgrade to Azure OpenAI Python SDK v1.x
 tags: [python, openai, migration, stainless, azure]
 ---
 
-This migration attempts to encode some of the [`Azure-specific details`](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/migration) for migration to OpenAI Python SDK v1.x.
+This migration attempts to encode some of the [`Azure-specific details`](HTTPS://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/migration) for migration to OpenAI Python SDK v1.x.
 
-This is a variant of the [`standard migration`](https://github.com/getgrit/python/blob/main/.grit/patterns/openai.md).
+This is a variant of the [`standard migration`](HTTPS://github.com/getgrit/python/blob/main/.grit/patterns/openai.md).
 
 
 ```grit
@@ -74,7 +74,7 @@ import openai
 
 openai.api_type = "azure"
 openai.api_key = YOUR_API_KEY
-openai.api_base = "https://YOUR_RESOURCE_NAME.openai.azure.com"
+openai.api_base = "HTTPS://YOUR_RESOURCE_NAME.openai.azure.com"
 openai.api_version = "2023-05-15"
 
 response = openai.Embedding.create(
@@ -90,7 +90,7 @@ from openai import AzureOpenAI
 
 client = AzureOpenAI(
   api_key=YOUR_API_KEY,
-  azure_endpoint="https://YOUR_RESOURCE_NAME.openai.azure.com",
+  azure_endpoint="HTTPS://YOUR_RESOURCE_NAME.openai.azure.com",
   api_version="2023-05-15"
 )
 

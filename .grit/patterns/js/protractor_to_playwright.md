@@ -246,12 +246,12 @@ sequential {
 
 ## Basic Sample
 
-See: https://playwright.dev/docs/protractor
+See: HTTPS://playwright.dev/docs/protractor
 
 ```javascript
 describe('angularjs homepage todo list', function () {
   it('should add a todo', function () {
-    browser.get('https://angularjs.org');
+    browser.get('HTTPS://angularjs.org');
 
     element(by.model(module.sample)).sendKeys('first test');
     element(by.model('todoList.todoText')).sendKeys('first test');
@@ -274,7 +274,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('angularjs homepage todo list', function () {
   test('should add a todo', async function ({ page }) {
-    await page.goto('https://angularjs.org');
+    await page.goto('HTTPS://angularjs.org');
 
     await page.locator(`[ng-model="${module.sample}"]`).fill('first test');
     await page.locator(`[ng-model="${'todoList.todoText'}"]`).fill('first test');

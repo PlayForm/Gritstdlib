@@ -17,7 +17,7 @@ inline_link(identifier=link_text($text)) where {
 ```md
 The root of a Grit query is a [pattern](/language/patterns).
 
-It even works with [titled links](https://www.codecademy.com/resources/docs/markdown/links "Thanks Codecademy!").
+It even works with [titled links](HTTPS://www.codecademy.com/resources/docs/markdown/links "Thanks Codecademy!").
 ```
 
 ```md

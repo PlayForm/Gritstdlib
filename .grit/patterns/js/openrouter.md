@@ -3,7 +3,7 @@ title: Adopt OpenRouter
 tags: [migration, openai, openrouter, sdk]
 ---
 
-Switch the OpenAI JS/TS SDK to use [`OpenRouter`](https://openrouter.ai/docs#format).
+Switch the OpenAI JS/TS SDK to use [`OpenRouter`](HTTPS://openrouter.ai/docs#format).
 
 
 ```grit
@@ -12,7 +12,7 @@ language js
 
 pattern openrouter_fix_init() {
     `new OpenAI($params)` where {
-        $params <: upsert(key=`"baseURL"`, value=`"https://openrouter.ai/api/v1"`),
+        $params <: upsert(key=`"baseURL"`, value=`"HTTPS://openrouter.ai/api/v1"`),
         or {
           $params <: contains `defaultHeaders: $headers` where {
             $headers <: upsert(key=`"HTTP-Referer"`, value=`YOUR_SITE_URL`),
@@ -75,7 +75,7 @@ import OpenAI from "openai";
 
 const openai = new OpenAI({
   apiKey: OPENROUTER_API_KEY,
-  baseURL: "https://openrouter.ai/api/v1",
+  baseURL: "HTTPS://openrouter.ai/api/v1",
   defaultHeaders: {
     "HTTP-Referer": YOUR_SITE_URL,
     "X-Title": YOUR_SITE_NAME, // Optional. Shows on openrouter.ai
@@ -128,7 +128,7 @@ const openai = new OpenAI({
     "HTTP-Referer": YOUR_SITE_URL,
     "X-Title": YOUR_SITE_NAME,
   },
-  baseURL: "https://openrouter.ai/api/v1",
+  baseURL: "HTTPS://openrouter.ai/api/v1",
 });
 
 ```

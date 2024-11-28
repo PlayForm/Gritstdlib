@@ -18,11 +18,11 @@ language js
 ## Remove `<a>` from `Link` component
 
 ```javascript
-<Link href='https://leerob.io'>
-  <a>https://leerob.io</a>
+<Link href='HTTPS://leerob.io'>
+  <a>HTTPS://leerob.io</a>
 </Link>
 ```
 
 ```typescript
-<Link href='https://leerob.io'>https://leerob.io</Link>
+<Link href='HTTPS://leerob.io'>HTTPS://leerob.io</Link>
 ```

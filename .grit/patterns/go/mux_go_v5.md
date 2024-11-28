@@ -149,7 +149,7 @@ package main
 import muxgo "github.com/muxinc/mux-go"
 
 func main() {
-	req := muxgo.CreateAssetRequest{Url: "https://storage.googleapis.com/muxdemofiles/mux-video-intro.mp4", PlaybackPolicy: "public",}
+	req := muxgo.CreateAssetRequest{Url: "HTTPS://storage.googleapis.com/muxdemofiles/mux-video-intro.mp4", PlaybackPolicy: "public",}
 }
 ```
 
@@ -162,7 +162,7 @@ import muxgo "github.com/muxinc/mux-go"
 import "github.com/muxinc/mux-go/video"
 
 func main() {
-	req := video.AssetNewParams{Url: muxgo.F("https://storage.googleapis.com/muxdemofiles/mux-video-intro.mp4"), PlaybackPolicy: muxgo.F("public")}
+	req := video.AssetNewParams{Url: muxgo.F("HTTPS://storage.googleapis.com/muxdemofiles/mux-video-intro.mp4"), PlaybackPolicy: muxgo.F("public")}
 }
 ```
 
@@ -179,7 +179,7 @@ import muxgo "github.com/muxinc/mux-go"
 
 func main() {
 	asset, err := client.AssetsApi.CreateAsset(muxgo.CreateAssetRequest{Input: []muxgo.InputSettings{{
-			Url: "https://storage.googleapis.com/muxdemofiles/mux-video-intro.mp4",
+			Url: "HTTPS://storage.googleapis.com/muxdemofiles/mux-video-intro.mp4",
 		}},
 		PlaybackPolicy: []muxgo.PlaybackPolicy{muxgo.PUBLIC},
 	})
@@ -195,7 +195,7 @@ import "github.com/muxinc/mux-go/video"
 
 func main() {
 	asset, err := client.Video.Assets.New(context.TODO(), video.AssetNewParams{Input: muxgo.F([]video.AssetNewParamsInput{{
-			Url: muxgo.F("https://storage.googleapis.com/muxdemofiles/mux-video-intro.mp4"),
+			Url: muxgo.F("HTTPS://storage.googleapis.com/muxdemofiles/mux-video-intro.mp4"),
 		}}),
 		PlaybackPolicy: muxgo.F([]muxgo.PlaybackPolicy{muxgo.PUBLIC})})
 }

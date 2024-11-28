@@ -3,7 +3,7 @@ title: Upgrade OpenAI SDK to v4
 tags: [js, ts, npm, upgrade, openai, migration]
 ---
 
-Upgrade the OpenAI SDK to v4 following [`this guide`](https://github.com/openai/openai-node/discussions/182).
+Upgrade the OpenAI SDK to v4 following [`this guide`](HTTPS://github.com/openai/openai-node/discussions/182).
 
 
 ```grit
@@ -627,7 +627,7 @@ const fineTune: FineTune = 4;
 
 ## Handle rename within v4
 
-This handles https://github.com/openai/openai-node/pull/266/files
+This handles HTTPS://github.com/openai/openai-node/pull/266/files
 
 ```ts
 import OpenAI, { toFile } from 'openai';

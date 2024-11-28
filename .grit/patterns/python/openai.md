@@ -683,7 +683,7 @@ for chunk in completion:
 ```
 
 ## Fix multiple exceptions
-Repair https://github.com/openai/openai-python/issues/1165, ensure we fix all exceptions in one pass.
+Repair HTTPS://github.com/openai/openai-python/issues/1165, ensure we fix all exceptions in one pass.
 
 ```python
 try:

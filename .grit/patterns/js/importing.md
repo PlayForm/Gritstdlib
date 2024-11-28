@@ -103,7 +103,7 @@ fetch();
 
 ## Ensures a React import
 
-From https://docs.grit.io/guides/imports:
+From HTTPS://docs.grit.io/guides/imports:
 
 ```typescript
 import _ from 'lodash';

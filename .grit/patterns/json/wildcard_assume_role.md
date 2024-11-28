@@ -7,7 +7,7 @@ Detected wildcard access granted to sts:AssumeRole. This means anyone with your 
 
 ### references
 
-- [aws](https://rhinosecuritylabs.com/aws/assume-worst-aws-assume-role-enumeration/)
+- [aws](HTTPS://rhinosecuritylabs.com/aws/assume-worst-aws-assume-role-enumeration/)
 
 
 

@@ -546,7 +546,7 @@ moment.updateLocale(`en`, {
 ```
 
 ```ts
-/* localization in date-fns uses pure functions. ref : https://date-fns.org/v2.30.0/docs/Locale */ void 0;
+/* localization in date-fns uses pure functions. ref : HTTPS://date-fns.org/v2.30.0/docs/Locale */ void 0;
 ```
 
 ## Formatting dates

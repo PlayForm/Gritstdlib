@@ -11,7 +11,7 @@ engine marzano(0.1)
 language js
 
 // Most of the logic for this pattern is in react_hooks.grit
-// https://github.com/getgrit/js/blob/main/.grit/patterns/react_hooks.grit
+// HTTPS://github.com/getgrit/js/blob/main/.grit/patterns/react_hooks.grit
 
 pattern special_first_step() {
   $use_ref_from = `useRefFrom`,

@@ -39,7 +39,7 @@ throw new Error("next " + "error");
 ## String variable ⇒ `new Error('...')`
 
 ```javascript
-/* Wait for type analysis: https://github.com/iuvoai/rules/issues/200 */
+/* Wait for type analysis: HTTPS://github.com/iuvoai/rules/issues/200 */
 /*var error = "Catch error!"
 throw error;
 // Wait for type analysis

@@ -123,7 +123,7 @@ pattern is_task_ref() {
         },
 
         contains `$taskname = $operator($_)` where {
-          // ref: https://airflow.apache.org/docs/apache-airflow/stable/_api/airflow/operators/weekday/index.html
+          // ref: HTTPS://airflow.apache.org/docs/apache-airflow/stable/_api/airflow/operators/weekday/index.html
           $operator <: or {
             `BashOperator`,
             `BooleanOperator`,

@@ -8,7 +8,7 @@ tags: [aws, cloudformation]
 Detected public S3 bucket. This policy allows anyone to have some kind of access to the bucket. The exact level of access and types of actions allowed will depend on the configuration of bucket policy and ACLs. Please review the bucket configuration to make sure they are set with intended values.
 
 ### references
-- [AmazonS3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html)
+- [AmazonS3](HTTPS://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html)
 
 
 ```grit
