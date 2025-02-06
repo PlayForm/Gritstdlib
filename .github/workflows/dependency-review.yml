@@ -17,6 +17,6 @@ jobs:
     runs-on: nscloud-ubuntu-22.04-amd64-4x16
     steps:
       - name: 'Checkout Repository'
-        uses: actions/setup-node@v4.1.0
+        uses: actions/setup-node@v4.2.0
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@0efb1d1d84fc9633afcdaad14c485cbbc90ef46c # v2.5.1
