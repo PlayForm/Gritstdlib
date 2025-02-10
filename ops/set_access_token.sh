@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Retrieve client ID and secret from environment variables
 CLIENT_ID=$(printenv API_CLIENT_ID)
