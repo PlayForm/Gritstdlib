@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
       - name: grit-check
         uses: getgrit/github-action-check@v0
 ```
@@ -58,7 +58,7 @@ jobs:
     runs-on: nscloud-ubuntu-22.04-amd64-4x16
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
       - name: grit-check
         uses: getgrit/github-action-check@v0
 ```
@@ -75,7 +75,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
       - name: grit-check
         uses: getgrit/github-action-check@v0
 ```
@@ -88,7 +88,7 @@ jobs:
     runs-on: nscloud-macos-4x16
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
       - name: grit-check
         uses: getgrit/github-action-check@v0
 ```
